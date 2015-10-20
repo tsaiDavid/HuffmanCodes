@@ -58,6 +58,7 @@ describe("Huffman Coding", function() {
     });
 
     it("encodes 'b'", function() {
+      debugger;
       expect(encodeString("b", huffman)).to.be("10");
     });
 
